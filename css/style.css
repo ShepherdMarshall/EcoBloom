@@ -1,0 +1,298 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+ol{
+    margin-left: 15px;
+}
+
+.container{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img{
+    padding: 21px 0;
+}
+
+.main__inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 -10px;
+}
+
+.main__title{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.main__subtitle{
+    margin-top: 29px;
+}
+
+.main__btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 70px;
+    border-radius: 25px;
+    background: #009F34;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 29px;
+    margin-bottom: 375px;
+}
+
+/* COMPLECT */
+
+.complect__inner{
+    margin-top: 60px;
+}
+
+.complect__info{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.complect__list{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complect__list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.complect__list-column + .complect__list-column{
+    margin-left: 20px;
+}
+
+.complect__list-item + .complect__list-item{
+    margin-top: 15px;
+}
+
+.complect_img{
+    margin: 0 -10px;
+    margin-top: 60px;
+    height: 644px;
+    background-size: cover;
+    background-image: url(../images/complect.jpg);
+}
+
+/* PLANTS */
+
+.plants{
+    margin-top: 60px;
+}
+
+.plants__item{
+    margin-top: 20px;
+}
+
+.plants__item-title{
+    display: flex;
+    align-items: center;
+}
+
+.plants__title{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.plants__text{
+    margin-top: 10px;
+}
+
+.plants__img{
+    margin: 60px -10px 0 -10px;
+    background-image: url(../images/plants.jpg);
+    height: 515px;
+}
+
+/* characteristics */
+
+.characteristics{
+    margin-top: 60px;
+}
+
+.characteristics__info{
+    margin-top: 25px;
+}
+
+.characteristics__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.characteristics__title{
+    font-weight: 500;
+}
+
+.characteristics__text{
+    text-align: right;
+}
+
+li + li{
+    margin-top: 20px;
+}
+
+.characteristics__item + .characteristics__item{
+    margin-top: 20px;
+}
+
+.characteristics__img{
+    margin: 60px -10px 0 -10px;
+    background-image: url(../images/char.jpg);
+    height: 286px;
+}
+
+/* INFO */
+
+.info{
+    margin-top: 60px;
+}
+
+.info__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.info__text p{
+    margin: 25px 0;
+    line-height: 20px;
+}
+
+.info__text li{
+    line-height: 20px;
+}
+
+.info__video{
+    margin: 40px -10px 0 -10px;  
+}
+
+video{
+    width: 100%;
+}
+
+.info__btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 104px;
+    border-radius: 25px;
+    background: #009F34;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 29px;
+}
+
+/* CONTACTS */
+
+.contacts{
+    margin-top: 60px;
+}
+
+.contacts__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__text{
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+.contacts__form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__form input{
+    border: 1px solid #EAEAEA;
+    border-radius: 25px;
+    outline: none;
+    width: 408px;
+}
+
+input{
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+input + input{
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color: #C9C9C9;
+    font-size: 16px;
+}
+
+.contacts__btn{
+    background-color: #009F34;
+    color: white;
+    font-weight: 700;
+    padding: 15px 94px;
+    max-width: 276px;
+}
+
+/* footer */
+
+.footer__inner{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    margin: 20px 0 60px 0;
+}
+
+.social__img + .social__img{
+    padding-left: 20px;
+}
